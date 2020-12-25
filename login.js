@@ -17,6 +17,7 @@ class ExpressRouterAdapter {
 }
 
 // Presentation Layer - Expose to client
+
 class SignUpRouter {
   async route (httpRequest) {
     const { email, password, repeatPassword } = httpRequest.body
@@ -31,6 +32,7 @@ class SignUpRouter {
 }
 
 // Domain - Business Rules
+
 class SignUpUseCase {
   async signUp (email, password, repeatPassword) {
     if (password === repeatPassword) {
