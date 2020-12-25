@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/loxt/clean-node-api.git"
   },
+  "standard": {
+    "env": ["jest"]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
